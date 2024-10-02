@@ -29,7 +29,3 @@ cookies_df["sweetness"] = {
 
 
 data = pd.Series(['a', 'c', 'e', 'g'], index=[1, 3, 5, 7])
-
-print(data)
-
-print(data.iloc[2:5])
