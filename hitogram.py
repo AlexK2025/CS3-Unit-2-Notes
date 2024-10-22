@@ -7,5 +7,6 @@ rng = np.random.default_rng(100)
 data = rng.normal(size=1000)
 
 plt.hist(data)
+print("hi")
 
 plt.savefig("histogram.png")
